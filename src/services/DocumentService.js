@@ -1,6 +1,6 @@
 // import React from 'react';
 import axios from 'axios'
-const baseUrl="13.232.203.141:9091/visitor/"
+const baseUrl="https://13.232.203.141:9091/visitor/"
 
  class DocumentService {
 
