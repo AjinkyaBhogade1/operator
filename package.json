@@ -1,0 +1,27 @@
+{
+  "name": "react-axios-tutorial-example",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.16.2",
+    "bootstrap": "^4.4.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-joi-validation": "^1.7.0",
+    "react-js-pagination": "^3.0.2",
+    "react-paginate": "^6.3.2",
+    "react-phone-number-input": "^3.0.13",
+    "react-router-dom": "^4.1.1",
+    "react-scripts": "0.9.5",
+    "react-spinners": "^0.8.0",
+    "react-validation": "^3.0.7",
+    "validator": "^12.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
