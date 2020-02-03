@@ -93,12 +93,12 @@ class ListDocument extends Component {
 
 
   printData = (item) => {
-    axios.get('http://10.9.42.239:8083/api/printToken/' + item.id)
+    axios.get('https://13.232.203.141:8085/api/printToken/' + item.id)
       .then(response => {
         const file = new Blob(
           [response.data],
           { type: 'application/pdf' });
-        const fileURL = 'http://10.9.42.239:8083/api/printToken/' + item.id;
+        const fileURL = 'https://13.232.203.141:8085/api/printToken/' + item.id;
         window.open(fileURL);
 
       })

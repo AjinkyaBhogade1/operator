@@ -1,0 +1,103 @@
+body  {
+    background-image: url("ces.png");
+  }
+  
+  .navbar {
+    /* width: 100%; */
+    background-color: #fff;
+    border-bottom :5px solid gray;
+    overflow: auto;
+  }
+  
+  .navbar a {
+    float: right;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .login {
+    color:blue
+  }
+  
+  .form-back {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+  }
+  
+  .text-color {
+   color: #ffffff;
+   font-size: 100px;
+   margin-top:10%;
+   margin-left:10%;
+  }
+  
+  .next-button {
+   color: green;
+   font-size: 25px;
+   margin-top:2%;
+   margin-left:40%;
+  }
+  
+  .subText-color {
+   color: #ffffff;
+   font-size: 25px;
+   margin-left:30%;
+  }
+  
+  .subText-top {
+   margin-top:4%;
+   margin-left:20%;
+  }
+  
+  .success-page {
+   margin-top:15%;
+   font-size:40px
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+  .back {
+    background-color: "red";
+    opacity: 0.1;
+    filter: Alpha(opacity=50);
+    width: 100%;
+    height: 100%;
+  };
+  
+  input.active:valid {
+    box-shadow: 0 0 5px 1px green;
+  }
+  
+  input.active:invalid {
+    box-shadow: 0 0 5px 1px red;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .serverError {
+    color: red;
+    font-size: 18px;
+  }
+  
+  .serverErrorBox {
+    border: 1px solid red;
+    border-radius: 5px;
+    margin-bottom:15px;
+    padding:10px;
+  }
+  
+  .data-msg {
+    font-size: 38px;
+  }
+  
+  .font-bold{
+    font-weight: 700;
+  }
+  
